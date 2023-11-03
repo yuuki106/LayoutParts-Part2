@@ -10,9 +10,13 @@
   position: relative;
 }
 
-.item:before {
+.item:before,
+.item:after{
   content: "";
   position: absolute;
+}
+
+.item:before {
   border: 24px solid transparent;
   border-top: 24px solid #8f5a0a;
   bottom: -50px;
@@ -20,8 +24,6 @@
   z-index: 1;
 }
 .item:after {
-  content: "";
-  position: absolute;
   border: 22px solid transparent;
   border-top: 22px solid #fad296;
   bottom: -40px;
