@@ -14,19 +14,17 @@
 .item:after{
   content: "";
   position: absolute;
+  left: 25px;
+  border: 24px solid transparent;
 }
 
 .item:before {
-  border: 24px solid transparent;
   border-top: 24px solid #8f5a0a;
   bottom: -50px;
-  left: 25px;
   z-index: 1;
 }
 .item:after {
-  border: 22px solid transparent;
-  border-top: 22px solid #fad296;
-  bottom: -40px;
-  left: 27px;
+  border-top: 24px solid #fad296;
+  bottom: -43px;
   z-index: 2;
 }
