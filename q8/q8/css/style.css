@@ -1,16 +1,21 @@
 @charset "UTF-8";
 
-.bg-area{
+.bg-area {
   height: 500px;
-  background: url(../../image/coffee-background.jpg);
-}
-.bg2{
-  background: no-repeat;
-}
-.bg3{
-  background: cover center;
-}
-.bg4{
-  background: contain no-repeat center;
 }
 
+.bg1 {
+  background: url(../../image/coffee-background.jpg);
+}
+
+.bg2 {
+  background: url(../../image/coffee-background.jpg) no-repeat;
+}
+
+.bg3 {
+  background: url(../../image/coffee-background.jpg) center/cover;
+}
+
+.bg4 {
+  background: url(../../image/coffee-background.jpg)  no-repeat center/contain;
+}
